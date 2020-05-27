@@ -171,7 +171,8 @@
 		</figure>
 	</div>
 
-			<center><h1><i><u>LUXURY HOTEL MEALS ...</u></i></h1></center>
+			<center><h1 style="color: teal"><i><u>LUXURY HOTEL MEALS ...</u></i></h1></center>
+
 	</div>
 	<div id="divsubfooter">
 
