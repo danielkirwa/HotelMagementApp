@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		
+		body{
+			margin: 30px;
+		}
+	</style>
+</head>
+<script type="text/javascript">
+	
+	function multiply() {
+		// body...
+		ch = document.getElementById('ans').value;
+		document.getElementById("chw").innerHTML = ch;
+		if (ch < 10) {
+		num1 = document.getElementById('fnum').value;
+		num2 = document.getElementById('snum').value;
+
+		document.getElementById("result").innerHTML = num1 * num2;
+		
+		}
+	}
+	function divide() {
+		// body...
+		num1 = document.getElementById('fnum').value;
+		num2 = document.getElementById('snum').value;
+		document.getElementById("result").innerHTML = num1 / num2;
+		
+	}
+	
+</script>
+<body>
+<form>
+	Checker<input type="text" name="" id="ans"><br>
+	Number 1 <input type="text" name="" id="fnum"><br>
+	Number2  <input type="text" name="" id="snum"><br>
+	<input type="button" name="" value="Multply" onclick="multiply()">
+	<input type="button" name="" value="Divide" onclick="divide()">
+	<p>
+		The answers are :
+		<span id="result"></span>
+	</p>
+	<label id="chw"></label>
+	</form>
+</body>
+</html>
