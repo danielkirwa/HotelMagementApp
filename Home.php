@@ -270,7 +270,7 @@ extract($_POST);
 					<option>NAIRIBO</option>
 					<option>ELDORET</option>
 					
-				</select><br>
+				</select><br><br>
 		<label>Category :</label>
 				<select>
 					<option>Presidential</option>
@@ -279,46 +279,23 @@ extract($_POST);
 					<option>Pride</option>
 				</select>
 				
-				<label>No Rooms :</label>
-				<select>
-					<option>1</option>
-					<option>2</option>
-					<option>2</option>
-					<option>3</option>
-					<option>4</option>
-					<option>5</option>
-				</select>
 				<label>Adults  :</label>
-				<select>
-					<option>1</option>
-					<option>2</option>
-					<option>2</option>
-					<option>3</option>
-					<option>4</option>
-					<option>5</option>
-				</select>
+				<input type="number" name="">
 				<label>children :</label>
-				<select>
-					<option>1</option>
-					<option>2</option>
-					<option>2</option>
-					<option>3</option>
-					<option>4</option>
-					<option>5</option>
-				</select>
+				<input type="number" name="">
 				
 				<label>Checkin</label>
 				<input type="Date" name="Checkin">
 				<label>Checkout</label>
-				<input type="Date" name="Checkout"><br>
+				<input type="Date" name="Checkout"><br><br>
 				<label>Email Addres</label>
-				<input type="email" name="" >
+				<input type="email" name="">
 				<label>Phone Number :</label>
-				<input type="tex" name="" >
+				<input type="tex" name="" required="">
 				<label>Your ID Number:</label>
-				<input type="tex" name="" ><br>
+				<input type="tex" name="" required=""><br>
 				
-				<button type="submit" > <a href="#button">Check Retas</a> </button><br>
+				<button type="submit" > Check Retas </button><br>
 				<label>Total Rooms : </label>
 				<input type="text" name="">
 				<label>Current Cost : </label>

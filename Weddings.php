@@ -22,10 +22,10 @@
 		<ul>
 			<li class="active"><a href="#">Wedding</a></li>
 			<li><a href="Home.php">Home</a></li>
-			<li ><a href="Dinning.php">Dinning</a>
+			<li ><a href="Dining.php">Dinning</a>
 
 					<ul>
-					<li><a href="Dinning.php">Meals</a></li>
+					<li><a href="Dining.php">Meals</a></li>
 					<li><a href="#">Entertainment</a></li>
 					<li><a href="#">Games</a></li>
 					<li><a href="#">Tours</a></li>
@@ -198,6 +198,61 @@
 		<center><b><label><h4></h4> <u>Wedding ? got the the right place</u></h4></label></b></center><br><br>
 		<label style="color: teal">Plan your wedding </label><br>
 		<p>Get your full plan in place for your life time experience.make your plan with the help of our dedicated team for the best.To get started click <a href="#">Here</a></p>
+		<center><h3><i><span style="color: skyblue">Fill in the form to</span> <span style="color: teal">Book wedding ground</span> </i></h3></center>
+
+		<div id="weddingform">
+			<form>
+			<div id="weddingdiscription">
+			<label>Wedding Date :</label>
+			<input type="date" name=""><br><br>
+			<label>Select Ground :</label>
+			<select>
+				<option>ELDORET</option>
+				<option>KISUMU</option>
+				<option>MOMBASA</option>
+				<option>NAIROBI</option>
+			</select><br><br>
+			<label>Meal Class :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<select>
+				<option>Class A</option>
+				<option>Class B</option>
+			</select><br><br>
+			<label>Convoy :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<select>
+				<option>NONE</option>
+				<option>HOTEL CONVOY</option>
+				<option>PRECIDENTIAL CONVOY</option>
+				
+			</select><br><br>
+			<label>Expected Attendance :</label>
+			<input type="number" name=""><br><br>
+			<button id="btncheckprice">Check Price</button>
+				</div><br>
+				<div id="weddingprice">
+					
+					<label>Wedding Ground :</label>
+					<input type="text" name="">
+					<label>Total cost :</label>
+					<input type="text" name=""><br><br>
+					<label>Allowed Discount :</label>
+					<input type="text" name="">
+					<label>Net Price :</label>
+					<input type="text" name=""><br><br>
+				</div><br>
+				<div id="identification">
+					<label>ID Number :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="text" name=""><br><br>
+					<label>Phone Number :</label>
+					<input type="text" name="" ><br><br>
+					<label>Email :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+					<input type="email" name="">
+				</div><br>
+				<div id="actionbuttons">
+					<button id="btnsubmit">SUBMIT</button>
+					<button id="btnreset">RESET</button>
+				</div>
+				</form>
+		</div>
 
 
 	</div>

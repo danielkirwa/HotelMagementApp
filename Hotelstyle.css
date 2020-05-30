@@ -277,5 +277,85 @@
 		
 		background-color: #e3f450;
 	}
-	
+	#weddingform{
+		background-color: #ffffff;
+		width: 80%;
+		margin-left: 10%;
+
+	}
+	#weddingdiscription{
+		background-color: #F5DEB3;
+		margin-right: 10px;
+		margin-left: 10px;
+		padding-left: 1%;
+		padding-top: 2%;
+	}
+	#weddingprice
+	{
+		background-color: #FFEBCD;
+		margin-right: 10px;
+		margin-left: 10px;
+		padding-left: 1%;
+		padding-top: 2%;
+	}
+	#identification{
+		background-color: #F5DEB3;
+		margin-right: 10px;
+		margin-left: 10px;
+		padding-left: 1%;
+		padding-top: 2%;
+	}
+	#actionbuttons{
+		background-color: #FFEBCD;
+	}
+	#weddingdiscription:hover{
+		margin: 0px;
+		padding-left: 20px;
+	}
+	#weddingprice:hover{
+		margin: 0px;
+		padding-left: 20px;
+	}
+	 #identification:hover{
+		margin: 0px;
+		padding-left: 20px;
+		
+	}
+	#btnsubmit{
+		background-color: #00D200;
+		width: 40%;
+		margin-left: 10%;
+		height: 40px;
+		border-radius: 5px;
+	}
+	#btnreset{
+		background-color: #ff9b4d;
+		width: 40%;
+		height: 40px;
+		border-radius: 5px;
+
+	}
+	#btnsubmit:hover{
+		cursor: pointer;
+		background-color: #007700;
+		border-top-left-radius: 5px
+		border-top-right-radius : 5px;
+
+	}
+	#btnreset:hover{
+		cursor: pointer;
+		background-color: #D26E00;
+	}
+	#btncheckprice{
+		background-color: #007700;
+		width: 50%;
+		height: 40px;
+		margin-left: 25%;
+		border-radius: 5px;
+		cursor: pointer;
+		margin-bottom: 1%;
+
+	}
+
+
 

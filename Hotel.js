@@ -24,6 +24,16 @@ function closebooking(argument) {
 	document.getElementById('bookform').style.display="none";
 }
 
+function preventdefault(event) {
+	// body...
+	
+	event = event || window.event;
+	if (event.preventDefault) {
+		event.preventDefault();
+	} else {
+		event.returnValue = false;
+	}
+}
 
 
 

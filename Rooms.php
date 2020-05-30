@@ -31,6 +31,7 @@ extract($_POST);
  <head>
  	<title></title>
  	<link rel="stylesheet" type="text/css" href="Hotelstyle.css">
+ 	<script type="text/javascript" src="Hotel.js"></script>
  </head>
  <body>
 
@@ -197,9 +198,10 @@ extract($_POST);
 				</div>
 		</figure>
 	</div>
+	
 		<div class="bookingsform" id="bookform">
 			 <center><label><h3>Selest your room and category :</h3></label></center>
- 	<form method="post" id="bookform3">
+ 	<form method="post" id="bookform3" >
 
  		<label>SELECT CITY :</label>
 				<select>
@@ -247,7 +249,7 @@ extract($_POST);
 				<label>Phone Number :</label>
 				<input type="tex" name="phone" ><br><br>
 				<label>Your ID Number:</label>
-				<input type="tex" name="">
+				<input type="tex" name="" >
 				<label><i>Your ID number is your Booking Ticket Number </i></label><br><br>
 				<button type="Submit" class="btnsubmit" name="btnsubmit">Submit </button>
  	</form>
