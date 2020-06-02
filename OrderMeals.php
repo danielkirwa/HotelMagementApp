@@ -158,7 +158,7 @@
 	<div id="columnrightorder">
 		
 				<h1><center><label style="color: blue ">Your <span style="color: teal"> Order list </span> Check</label></center></h1><br>
-			<table class="table table-striped">
+			<table class="table table-striped" id="itemlist" border="1">
 			<thead>
 				<tr>
 				<th style="width: 25%;color: blue;">MEAL ITEM</th>
@@ -168,18 +168,7 @@
 			</tr>
 			</thead>
 			<tbody id="book-list">
-				<tr>
-				<td>Item one</td>
-				<td>2</td>
-				<td>Ksh 200</td>
-				<td><a href="#"><b style="color: red">X</b></a></td>
-			</tr>
-			<tr>
-				<td>Item two</td>
-				<td>1</td>
-				<td>Ksh 150</td>
-				<td><a href="#"><b style="color: red">X</b></a></td>
-			</tr>
+				
 			</tbody>
 				
 		</table>
@@ -188,9 +177,9 @@
 	<div id="divcontentorder">
 
 		<h1><center><label style="color: blue;" >Select <sapn style="color: teal">your meal </sapn> Here </label></center></h1><br>
-				<div><form id="book-form">
-					<div id="form-group">
-			<label>ITEM NAME </label><br>
+				<div><form id="book-form" onsubmit="event.preventDefault();onFormSubmit();">
+					<div id="form-group" >
+			<label>ITEM NAME </label><label id="fullnamevalidationerror" style="display: none;color: red;">Required</label><br>
 			
 			<input type="text" name="" id="item"><br>
 			</div>
@@ -204,6 +193,9 @@
 			</div>
 			<input type="submit" name="" value="Add Item" >
 			</form></div>
+
+			<hr>
+			
 
 
 
@@ -221,6 +213,6 @@
 	</div>
 
 </div>
-
+<script type="text/javascript" src="MealOrder.js"></script>
 </body>
 </html>

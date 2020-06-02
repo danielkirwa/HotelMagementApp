@@ -201,7 +201,7 @@ extract($_POST);
 	
 		<div class="bookingsform" id="bookform">
 			 <center><label><h3>Selest your room and category :</h3></label></center>
- 	<form method="post" id="bookform3" >
+ 	<form method="post" id="bookform3" onsubmit="event.preventDefault()">
 
  		<label>SELECT CITY :</label>
 				<select>
