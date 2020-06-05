@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Dining</title>
+	<title>Luxury Hotel About</title>
 	<link rel="stylesheet" type="text/css" href="Hotelstyle.css">
 
 	<script type="text/javascript" src="Hotel.js"></script>
@@ -25,10 +25,10 @@
 			
 			
 			
-			<li class="active"><a href="#">Bookings</a>
+			<li><a href="#">Bookings</a>
 
 					<ul>
-					<li class="active"><a href="#">Order Meal</a></li>
+					<li><a href="#">Order Meal</a></li>
 					<li><a href="Rooms.php">Rooms</a></li>
 					<li><a href="#">Halls</a></li>
 					<li><a href="#">Camping</a></li>
@@ -147,57 +147,26 @@
 				</ul>
 
 			</li>
-			<li><a href="About.html">About Us</a></li>
+			<li class="active"><a href="#">About Us</a></li>
 		</ul>
 		
 
 	</div>
 	<div id="columnleft">
-		<h3><center><label style="color: blue ">Delivery <span style="color: teal"> mode </span></label></center></h3>
-	</div>
-	<div id="columnrightorder">
+		<h3><center><label style="color: blue ">Luxury Hotel<span style="color: teal"> Infor </span></label></center></h3>
 		
-				<h1><center><label style="color: blue ">Your <span style="color: teal"> Order list </span> Check</label></center></h1><br>
-			<table class="table table-striped" id="itemlist" border="1">
-			<thead>
-				<tr>
-				<th style="width: 25%;color: blue;">MEAL ITEM</th>
-				<th style="width: 25%;color: teal;">QUANTITY</th>
-				<th style="width: 25%;color: blue;">NET PRICE</th>
-				<th style="width: 25%;color: teal;"></th>
-			</tr>
-			</thead>
-			<tbody id="book-list">
-				
-			</tbody>
-				
-		</table>
-
 	</div>
-	<div id="divcontentorder">
-
-		<h1><center><label style="color: blue;" >Select <sapn style="color: teal">your meal </sapn> Here </label></center></h1><br>
-				<div><form id="book-form" onsubmit="event.preventDefault();onFormSubmit();">
-					<div id="form-group" >
-			<label>ITEM </label>
-			<label id="fullnamevalidationerror" style="display: none;color: red;">Required</label><br>
-			<input type="text" name="" id="item"><br>
-			</div>
-			<div id="form-group">
-			<label>QUANTITY </label><br>
-			<input type="number" name="" id="quantity"><br>
-			</div>
-			<div id="form-group">
-			<label>PRICE </label><br>
-			<input type="text" name="" id="price"><br>
-			</div>
-			<input type="submit" name="" value="Add Item" >
-			</form></div>
-
-			<hr>
+	<div id="columnrightabout">
+		
+	</div>
+	<div id="divcontentabout">
+		<center><h3 style="color: teal">Hotel Management Web app</h3></center><br>
+		<p>
+			This is a basic Hotel management project that i developed for the purpose of learning.This project main objective is to automate most of the daily activities that are usualy carred out in a small hotel/restaurant.
+		</p>
+		<p>
 			
-
-
+		</p>
 
 	</div>
 	<div id="divsubfooter">
@@ -213,6 +182,5 @@
 	</div>
 
 </div>
-<script type="text/javascript" src="MealOrder.js"></script>
 </body>
 </html>

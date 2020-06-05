@@ -34,6 +34,12 @@
 	background-color: #ffffff; 
 	float: right;
 }
+#columnrightabout{
+	width:23%;
+	height: 1478px;
+	background-color: #ffffff; 
+	float: right;
+}
 #divcontent{
 	width: 66%;
 	height: 1478px;
@@ -42,6 +48,12 @@
 }
 #divcontentorder{
 	width: 50%;
+	height: 1478px;
+	background-color: #fffafa;
+	margin-left: 220px;
+}
+#divcontentabout{
+	width: 60%;
 	height: 1478px;
 	background-color: #fffafa;
 	margin-left: 220px;

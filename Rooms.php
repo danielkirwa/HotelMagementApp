@@ -170,7 +170,7 @@ extract($_POST);
 				</ul>
 
 			</li>
-			<li><a href="#">About Us</a></li>
+			<li><a href="About.html">About Us</a></li>
 		</ul>
 		
 
