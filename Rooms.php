@@ -30,8 +30,9 @@ extract($_POST);
  <html>
  <head>
  	<title></title>
- 	<link rel="stylesheet" type="text/css" href="Hotelstyle.css">
- 	<script type="text/javascript" src="Hotel.js"></script>
+ 	<link rel="stylesheet" type="text/css" href="styles/Hotelstyle.css">
+ 	<link rel="stylesheet" type="text/css" href="styles/banner.css">
+ 	<script type="text/javascript" src="scripts/Hotel.js"></script>
  </head>
  <body>
 

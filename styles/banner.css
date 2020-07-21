@@ -80,6 +80,9 @@
 	height: 50px;
 	text-align: center;
 	border: 1px solid white;	
+
+	/*animation*/
+	
 }
 
 .menubar ul li a{
@@ -104,9 +107,13 @@
 .menubar ul ul li{
 	width: 200px;
 	z-index: 1;
+	/*animation*/
+	-webkit-transition:max-height 500ms ease;
+    -moz-transition:max-height 500ms ease;
+    -o-transition:max-height 500ms ease;
+    transition:max-height 500ms ease;
 
 	
-
 }
 .menubar ul ul li:last-child{
 	height: 150px;
@@ -115,10 +122,15 @@
 .menubar ul li:hover ul{
 	display: block;
 	background-color: #f984ef;
+	/*animation*/
+	max-height:150px;
+	
 }
 .menubar .active{
 	background-color: yellow;
 }
+
+	
 #Location{
 	display: none;
 	position: fixed;
@@ -233,141 +245,3 @@
 	84%{ left: -100%; }
 	94%{ left: -100%; }
 	96%{ left: 0%; }}
-
-	.bookingsform{
-
-		background-color: #c90;
-	}
-	.btnsubmit{
-		background-color: #0C0;
-		width: 300px;
-		height: 40px;
-		margin-left: 20%;
-		margin-bottom: 10px;
-	}
-	.btnsubmit:hover{
-		background-color: #060;
-	}
-
-	.popupbooknow{
-		display: none;
-		position: fixed;
-		
-		border: 3px solid #f1f1f1;
-		z-index: 50;
-		left: 17%;
-		
-		top: 24%;
-
-
-	}
-	.formcontainer{
-		
-		padding: 10px;
-		background-color: #ffc87c;
-	}
-	.formcontainer .btnsubmitpopup{
-
-		background-color: #4caf50;
-		color: white;
-		width: 300px;
-		height: 40px;
-		
-
-	}
-	.formcontainer .btncancelpopup{
-
-		background-color: red;
-		color: white;
-		width: 300px;
-		height: 40px;
-		
-	}
-	.nairobiinfor{
-		float: right;
-		margin-right: 50%;
-		
-		background-color: #e3f450;
-	}
-	#weddingform{
-		background-color: #ffffff;
-		width: 80%;
-		margin-left: 10%;
-
-	}
-	#weddingdiscription{
-		background-color: #F5DEB3;
-		margin-right: 10px;
-		margin-left: 10px;
-		padding-left: 1%;
-		padding-top: 2%;
-	}
-	#weddingprice
-	{
-		background-color: #FFEBCD;
-		margin-right: 10px;
-		margin-left: 10px;
-		padding-left: 1%;
-		padding-top: 2%;
-	}
-	#identification{
-		background-color: #F5DEB3;
-		margin-right: 10px;
-		margin-left: 10px;
-		padding-left: 1%;
-		padding-top: 2%;
-	}
-	#actionbuttons{
-		background-color: #FFEBCD;
-	}
-	#weddingdiscription:hover{
-		margin: 0px;
-		padding-left: 20px;
-	}
-	#weddingprice:hover{
-		margin: 0px;
-		padding-left: 20px;
-	}
-	 #identification:hover{
-		margin: 0px;
-		padding-left: 20px;
-		
-	}
-	#btnsubmit{
-		background-color: #00D200;
-		width: 40%;
-		margin-left: 10%;
-		height: 40px;
-		border-radius: 5px;
-	}
-	#btnreset{
-		background-color: #ff9b4d;
-		width: 40%;
-		height: 40px;
-		border-radius: 5px;
-
-	}
-	#btnsubmit:hover{
-		cursor: pointer;
-		background-color: #007700;
-		border-top-left-radius: 5px
-		border-top-right-radius : 5px;
-
-	}
-	#btnreset:hover{
-		cursor: pointer;
-		background-color: #D26E00;
-	}
-	#btncheckprice{
-		background-color: #007700;
-		width: 50%;
-		height: 40px;
-		margin-left: 25%;
-		border-radius: 5px;
-		cursor: pointer;
-		margin-bottom: 1%;
-
-	}
-
-
-
