@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Weddings</title>
-	<link rel="stylesheet" type="text/css" href="styles/Hotelstyle.css">
+	<link rel="stylesheet" type="text/css" href="styles/wedding.css">
 	<link rel="stylesheet" type="text/css" href="styles/banner.css">
 	<script type="text/javascript" src="scripts/Hotel.js"></script>
 </head>
@@ -114,8 +114,7 @@
 				</ul>
 
 			</li>
-			
-			<li><a href="#">Meeting</a></li>
+
 			<li><a href="#">Offers</a>
 				<ul>
 					<li><a href="#">Holodays</a></li>
@@ -204,6 +203,7 @@
 		<div id="weddingform">
 			<form>
 			<div id="weddingdiscription">
+				<center><label style="color: orange;font-size: 24px;">Wedding Discription</label></center>
 			<label>Wedding Date :</label>
 			<input type="date" name=""><br><br>
 			<label>Select Ground :</label>
@@ -230,7 +230,7 @@
 			<button id="btncheckprice">Check Price</button>
 				</div><br>
 				<div id="weddingprice">
-					
+					<center><label style="color: orange;font-size: 24px;">Expected Price</label></center>
 					<label>Wedding Ground :</label>
 					<input type="text" name="">
 					<label>Total cost :</label>
@@ -241,6 +241,7 @@
 					<input type="text" name=""><br><br>
 				</div><br>
 				<div id="identification">
+					<center><label style="color: orange;font-size: 24px;">Your Identification</label></center>
 					<label>ID Number :</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 					<input type="text" name=""><br><br>
 					<label>Phone Number :</label>

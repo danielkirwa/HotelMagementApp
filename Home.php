@@ -117,6 +117,7 @@ extract($_POST);
 			<li><a href="#">Events</a>
 
 				<ul>
+					<li><a href="#">Meeting</a></li>
 					<li><a href="#">Cinema</a></li>
 					<li><a href="#">Consert</a></li>
 					<li><a href="#">Entertainment</a></li>
@@ -145,7 +146,7 @@ extract($_POST);
 
 			</li>
 			<li><a href="Weddings.php">Wedding</a></li>
-			<li><a href="#">Meeting</a></li>
+			
 			<li><a href="#">Offers</a>
 				<ul>
 					<li><a href="#">Holodays</a></li>
@@ -181,7 +182,7 @@ extract($_POST);
 		<label>BookRoom <a href="##" onclick="openbooking()"> now here</a></label>
 
 	</div>
-	<div id="columnleft">
+	<div id="columnleft" style="background: red">
 		<h3 style="color: #4caf50">NAIROBI</h3>
 		<P>We offer the best service and accomodation to all our customer with us we got you coverd experience the high class amd luxurious Hotle of honour</P>
 		<img src="images\images3 (4).jpeg" width="95%">
@@ -194,7 +195,7 @@ extract($_POST);
 		</p>
 
 	</div>
-	<div id="columnright">
+	<div id="columnright" style="background: blue">
 
 		<br><br><br>
 		<h4 style="color: #4f7f50">OUR CONNECT TEAM </h4>
@@ -217,7 +218,7 @@ extract($_POST);
 			
 		</P>
 	</div>
-	<div id="divcontent">
+	<div id="divcontent" style="background: teal">
 
 		<div class="slider">
 		<figure>

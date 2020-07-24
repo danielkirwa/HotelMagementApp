@@ -141,7 +141,7 @@ extract($_POST);
 
 			</li>
 			<li><a href="Weddings.php">Wedding</a></li>
-			<li><a href="#">Meeting</a></li>
+			
 			<li><a href="#">Offers</a>
 				<ul>
 					<li><a href="#">Holodays</a></li>
@@ -176,6 +176,7 @@ extract($_POST);
 		
 
 	</div>
+	<section>
 	<div id="columnleft">left</div>
 	<div id="columnright">right</div>
 	<div id="divcontent">
@@ -272,6 +273,6 @@ extract($_POST);
 	</div>
 
 </div>
-
+	</section>
  </body>
  </html>

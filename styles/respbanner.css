@@ -15,11 +15,12 @@
 	background-color:  	#ff8f00;
 	text-align: center;
 	position: relative;
+	
 }
 #columnleft{
 	width:17%;
 	height: 1478px;
-	background-color: #ffffff; 
+	background-color: teal; 
 	float: left;
 }
 #columnright{
@@ -53,14 +54,15 @@
 	margin-left: 220px;
 }
 #divcontentabout{
-	width: 60%;
+	width: 83%;
 	height: 1478px;
-	background-color: #fffafa;
-	margin-left: 220px;
+	background-color: teal;
+	margin-left: 17%;
 }
 #divsubfooter{
 	width: 100%;
 	height: 300px;
+
 	background-color: #d2691e;
 }
 
@@ -286,21 +288,12 @@
 .slide1{
 	height: 100px;
 }
-.slider{
-	height: 300px;
-}
-.slider img{
-	width: 300px;
-}
 .menubar ul li:hover ul{
 	display: block;
 	background-color: #f984ef;
 	/*animation*/
+	padding-top: 0px;
 	max-height:150px;
 	
 }
-#divcontent{
-	margin-left: 17%;
 }
-}
-
